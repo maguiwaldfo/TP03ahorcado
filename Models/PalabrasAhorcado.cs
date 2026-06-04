@@ -8,16 +8,16 @@ public class PalabrasAhorcado
     {
         palabras = new List<string>
         {
-            "PROGRAMACIÓN",
+            "PROGRAMACION",
             "COMPUTADORA",
             "ALGORITMO",
-            "DATABASE",
+            "PROYECTOR",
             "SOFTWARE",
             "INTERFAZ",
-            "COMPILADOR",
-            "VARIABLE",
+            "PROCESADOR",
+            "INFORMATICA",
             "MEMORIA",
-            "SERVIDOR"
+            "GABINETE"
         };
     }
 

@@ -1,8 +1,22 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <h1>AHORCADO</h1>
+    <p>Arriesgá letras para adivinar la palabra antes de quedarte sin intentos. El juego se juega sin recargar la página.</p>
+
+    <section>
+        <div id="palabraOculta" ></div>
+        <div id="mensaje" class="mensaje"></div>
+        <div>
+            <label for="letra">Arriesgá una letra:</label>
+            <input id="letra" type="text" maxlength="1"/>
+        </div>
+        <div id="ChancesRestantes" class="Chances">Intentos restantes: 10</div>
+        <input id="palabra" type="hidden" value="@ViewBag.Palabra" />
+        <button type="button" onclick="ArriesgarLetra()">Arriesgar</button>
+    </section>
 </div>
+<script src="~/js/script.js"></script>

@@ -19,6 +19,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(255, 255, 213);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +31,22 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+h1{
+  font-size: 500%;
+  color: pink;
+}
+p{
+  font-size: 200%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+section{
+  font-size: 150%;
+}
+button{
+  margin-top: 2%;
+  color: rgb(0, 0, 0);
+  background-color: pink;
 }
