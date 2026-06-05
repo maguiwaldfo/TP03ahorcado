@@ -57,13 +57,9 @@ function ArriesgarLetra() {
     if (!palabraOculta.includes("_")) {
         divMensaje.innerHTML = "<strong>¡Felicidades! Ganaste el juego</strong>";
         divMensaje.style.color = "green";
-        inputLetra.disabled = true;
     } 
     else if (chancesRestantes <= 0) {
         divMensaje.innerHTML = "<strong>¡Te quedaste sin intentos! Derrota. La palabra era: " + palabra + "</strong>";
         divMensaje.style.color = "red";
-        inputLetra.disabled = true;
     }
 }
-
-
