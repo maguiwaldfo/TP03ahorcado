@@ -77,7 +77,7 @@ function ArriesgarLetra() {
     }
     else if (chancesRestantes <= 0) {
 
-        divMensaje.innerHTML = "<strong>¡Te quedaste sin intentos! Derrota. La palabra era: " + palabra + "</strong>";
+        divMensaje.innerHTML = "<strong>¡Te quedaste sin intentos! La palabra era: " + palabra + "</strong>";
         divMensaje.style.color = "red";
     }
 }
